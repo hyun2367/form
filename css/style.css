@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+
+*{margin: 0; padding: 0;}
+body {background: #ddd;}
+a {text-decoration: none;}
+
+
+.blind {position:absolute; top: 0; left: 0; overflow:hidden; text-indent:-999999999px; width: 0;height: 0; font-size: 0;}
+
+/* 회원가입창 */
+#wrap #contents {padding-top: 100px; background: #fff; width: 1000px; height: 800px; margin: 0 auto;}
+#wrap #contents h1 {color: #999; font-size: 25px; margin: 20px 0 30px 100px;}
+#wrap #contents form.basic_info {width: 800px; border: 1px solid #dfdfdf; margin-left: 100px;}
+.basic_info h2 {font-size: 18px; font-weight: bold; padding: 15px 0 10px 0; margin-left: 20px; color: #333; border-bottom: 1px solid #dfdfdf; width: 760px;}
+.basic_info h2 span {font-size: 13px; margin-left: 7px; font-weight: normal; color: #aaa9a9;}
+.basic_info h2 span strong {color: #da526d;}
+
+/* 입력 table */
+.basic_info table {margin-top: 25px; margin-bottom: 10px; font-size: 12px;}
+tr,th,td {height: 40px;line-height: 40px;}
+.basic_info table p {line-height: 1.5; margin-bottom: 5px; color: #aaa9a9;}
+.basic_info table p.info {padding: 15px 0 20px 0;}
+.basic_info table p.info em {font-weight: bold; color: #aaa9a9;}
+.basic_info table tr span {color: #da526d;}
+.basic_info table tr th {padding: 0 0 0 25px;/* margin-top: -2px; */float: left; vertical-align: middle;}
+/* .basic_info table tr th img {vertical-align: -7px;} */
+.basic_info table tr td {padding: 0 0 0 50px;}
+.basic_info table tr td input {height: 20px; margin: 0 3px 0 3px; border: 1px solid #d4d4d4; background: #e9e9e9; color: #333; vertical-align: middle;}
+.basic_info table tr td.mobile input {margin-top: 0; margin-bottom: 0; height: 18px; vertical-align: middle;}
+.basic_info table tr td.mobile select {margin-left: 3px;}
+.basic_info table tr td span {margin: 0 0 10px 0; height: 15px; color: #da526d; padding-left: 5px;}
+.basic_info table tr td select {vertical-align: middle;  border: 1px solid #d4d4d4; background: #e9e9e9; color: #333;}
+
